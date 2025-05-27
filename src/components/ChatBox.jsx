@@ -126,7 +126,7 @@ const GroupChat = () => {
           >
             {chatMessages.map((msg, idx) => (
               <div key={idx}>
-                <strong>{msg.user}:</strong> {msg.message}
+                <strong>{msg}:</strong> {msg.message}
               </div>
             ))}
           </div>
